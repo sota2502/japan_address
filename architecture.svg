@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="508px" preserveAspectRatio="none" style="width:505px;height:508px;" version="1.1" viewBox="0 0 505 508" width="505px" zoomAndPan="magnify">
+    <defs>
+        <filter height="300%" id="fbisqrfks5lkh" width="300%" x="-1" y="-1">
+            <feGaussianBlur result="blurOut" stdDeviation="2.0" />
+            <feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0" />
+            <feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3" />
+            <feBlend in="SourceGraphic" in2="blurOut3" mode="normal" />
+        </filter>
+    </defs>
+    <g>
+        <!--MD5=[42591781c74864aa6bd8b9830e23a81c]
+cluster Docker-->
+        <rect fill="#FFFFFF" filter="url(#fbisqrfks5lkh)" height="343" style="stroke: #000000; stroke-width: 1.5;" width="472" x="22" y="154" />
+        <path d="M82,155 L82,163.4883 L72,173.4883 L22,173.4883 " fill="none" style="stroke: #000000; stroke-width: 1.5;" /><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="50" x="25" y="168.5352">Docker</text>
+        <!--MD5=[b7709df717efd9e6df0e9843c5de81db]
+entity Nginx-->
+        <polygon fill="#FEFECE" filter="url(#fbisqrfks5lkh)" points="217.5,199,227.5,189,298.5,189,298.5,225.4883,288.5,235.4883,217.5,235.4883,217.5,199" style="stroke: #000000; stroke-width: 1.5;" />
+        <line style="stroke: #000000; stroke-width: 1.5;" x1="288.5" x2="297.5" y1="199" y2="190" />
+        <line style="stroke: #000000; stroke-width: 1.5;" x1="217.5" x2="288.5" y1="199" y2="199" />
+        <line style="stroke: #000000; stroke-width: 1.5;" x1="288.5" x2="288.5" y1="199" y2="235.4883" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="41" x="232.5" y="222.5352">Nginx</text>
+        <!--MD5=[a29cbfcb5160282b653926450b0497c0]
+entity Solr1-->
+        <polygon fill="#FEFECE" filter="url(#fbisqrfks5lkh)" points="137,322,147,312,213,312,213,348.4883,203,358.4883,137,358.4883,137,322" style="stroke: #000000; stroke-width: 1.5;" />
+        <line style="stroke: #000000; stroke-width: 1.5;" x1="203" x2="212" y1="322" y2="313" />
+        <line style="stroke: #000000; stroke-width: 1.5;" x1="137" x2="203" y1="322" y2="322" />
+        <line style="stroke: #000000; stroke-width: 1.5;" x1="203" x2="203" y1="322" y2="358.4883" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="36" x="152" y="345.5352">Solr1</text>
+        <!--MD5=[ad5ac6efd9ede1aa8a0d4752fca9d4b1]
+entity Solr2-->
+        <polygon fill="#FEFECE" filter="url(#fbisqrfks5lkh)" points="303,322,313,312,379,312,379,348.4883,369,358.4883,303,358.4883,303,322" style="stroke: #000000; stroke-width: 1.5;" />
+        <line style="stroke: #000000; stroke-width: 1.5;" x1="369" x2="378" y1="322" y2="313" />
+        <line style="stroke: #000000; stroke-width: 1.5;" x1="303" x2="369" y1="322" y2="322" />
+        <line style="stroke: #000000; stroke-width: 1.5;" x1="369" x2="369" y1="322" y2="358.4883" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="36" x="318" y="345.5352">Solr2</text>
+        <!--MD5=[a416d3fc5238914c42f80e467389c830]
+entity ZooKeeper1-->
+        <polygon fill="#FEFECE" filter="url(#fbisqrfks5lkh)" points="38.5,445,48.5,435,161.5,435,161.5,471.4883,151.5,481.4883,38.5,481.4883,38.5,445" style="stroke: #000000; stroke-width: 1.5;" />
+        <line style="stroke: #000000; stroke-width: 1.5;" x1="151.5" x2="160.5" y1="445" y2="436" />
+        <line style="stroke: #000000; stroke-width: 1.5;" x1="38.5" x2="151.5" y1="445" y2="445" />
+        <line style="stroke: #000000; stroke-width: 1.5;" x1="151.5" x2="151.5" y1="445" y2="481.4883" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="83" x="53.5" y="468.5352">ZooKeeper1</text>
+        <!--MD5=[4a4cafaa76e39d90e283f93263d89dd7]
+entity ZooKeeper2-->
+        <polygon fill="#FEFECE" filter="url(#fbisqrfks5lkh)" points="196.5,445,206.5,435,319.5,435,319.5,471.4883,309.5,481.4883,196.5,481.4883,196.5,445" style="stroke: #000000; stroke-width: 1.5;" />
+        <line style="stroke: #000000; stroke-width: 1.5;" x1="309.5" x2="318.5" y1="445" y2="436" />
+        <line style="stroke: #000000; stroke-width: 1.5;" x1="196.5" x2="309.5" y1="445" y2="445" />
+        <line style="stroke: #000000; stroke-width: 1.5;" x1="309.5" x2="309.5" y1="445" y2="481.4883" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="83" x="211.5" y="468.5352">ZooKeeper2</text>
+        <!--MD5=[d676175ad39d4c14c0f85ef0360bbe2e]
+entity ZooKeeper3-->
+        <polygon fill="#FEFECE" filter="url(#fbisqrfks5lkh)" points="354.5,445,364.5,435,477.5,435,477.5,471.4883,467.5,481.4883,354.5,481.4883,354.5,445" style="stroke: #000000; stroke-width: 1.5;" />
+        <line style="stroke: #000000; stroke-width: 1.5;" x1="467.5" x2="476.5" y1="445" y2="436" />
+        <line style="stroke: #000000; stroke-width: 1.5;" x1="354.5" x2="467.5" y1="445" y2="445" />
+        <line style="stroke: #000000; stroke-width: 1.5;" x1="467.5" x2="467.5" y1="445" y2="481.4883" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="83" x="369.5" y="468.5352">ZooKeeper3</text>
+        <!--MD5=[fee662a292a0353a69bd162820bae93b]
+entity User-->
+        <ellipse cx="258" cy="18" fill="#FEFECE" filter="url(#fbisqrfks5lkh)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;" />
+        <path d="M258,26 L258,53 M245,34 L271,34 M258,53 L245,68 M258,53 L271,68 " fill="none" filter="url(#fbisqrfks5lkh)" style="stroke: #A80036; stroke-width: 2.0;" /><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="31" x="242.5" y="88.5352">User</text>
+        <!--MD5=[e96800faa9aa00d86fa281fa249b8709]
+link User to Nginx-->
+        <path d="M258,91 C258,119.96 258,158.15 258,183.59 " fill="none" id="User-&gt;Nginx" style="stroke: #A80036; stroke-width: 1.0;" />
+        <polygon fill="#A80036" points="258,188.82,262,179.82,258,183.82,254,179.82,258,188.82" style="stroke: #A80036; stroke-width: 1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="32" x="259" y="134.5684">8080</text>
+        <!--MD5=[ddef4e211f882c15a3d8c6becc4f6152]
+link Nginx to Solr1-->
+        <path d="M242.78,235.19 C228.74,255.66 207.88,286.07 193.02,307.74 " fill="none" id="Nginx-&gt;Solr1" style="stroke: #A80036; stroke-width: 1.0;" />
+        <polygon fill="#A80036" points="190.13,311.95,198.5166,306.7862,192.956,307.8252,191.9169,302.2646,190.13,311.95" style="stroke: #A80036; stroke-width: 1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="32" x="222" y="278.5684">8983</text>
+        <!--MD5=[aa35c939695f491206b08cd97adcdd97]
+link Nginx to Solr2-->
+        <path d="M273.22,235.19 C287.26,255.66 308.12,286.07 322.98,307.74 " fill="none" id="Nginx-&gt;Solr2" style="stroke: #A80036; stroke-width: 1.0;" />
+        <polygon fill="#A80036" points="325.87,311.95,324.0831,302.2646,323.044,307.8252,317.4834,306.7862,325.87,311.95" style="stroke: #A80036; stroke-width: 1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="32" x="305" y="278.5684">8983</text>
+        <!--MD5=[56e8026cbf247f859663385b42755025]
+link Solr1 to ZooKeeper1-->
+        <path d="M132,345.67 C109.37,353.18 83.57,366.14 70,388 C61.77,401.26 67.76,417.18 76.49,430.38 " fill="none" id="Solr1-ZooKeeper1" style="stroke: #A80036; stroke-width: 1.0;" />
+        <polygon fill="#A80036" points="79.53,434.74,77.6435,425.0735,76.6617,430.6445,71.0907,429.6627,79.53,434.74" style="stroke: #A80036; stroke-width: 1.0;" />
+        <polygon fill="#A80036" points="136.77,344.15,126.9817,343.0599,132.0042,345.6625,129.4016,350.6851,136.77,344.15" style="stroke: #A80036; stroke-width: 1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="32" x="71" y="401.5684">2181</text>
+        <!--MD5=[0597bb9d1f6a0f2a788893bad025b5bc]
+link Solr1 to ZooKeeper2-->
+        <path d="M150.72,362.68 C141.7,375.89 135.51,391.8 144,405 C150.1,414.48 169.95,424.81 191.42,433.75 " fill="none" id="Solr1-ZooKeeper2" style="stroke: #A80036; stroke-width: 1.0;" />
+        <polygon fill="#A80036" points="196.31,435.75,189.4844,428.65,191.6795,433.8635,186.466,436.0587,196.31,435.75" style="stroke: #A80036; stroke-width: 1.0;" />
+        <polygon fill="#A80036" points="153.87,358.3,145.3707,363.2761,150.953,362.3609,151.8681,367.9433,153.87,358.3" style="stroke: #A80036; stroke-width: 1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="32" x="145" y="401.5684">2181</text>
+        <!--MD5=[e46a97fa67708d032081c254d065e495]
+link Solr1 to ZooKeeper3-->
+        <path d="M212.53,361.04 C234.11,374.89 262.02,391.9 288,405 C308.03,415.1 330.5,424.76 350.96,432.95 " fill="none" id="Solr1-ZooKeeper3" style="stroke: #A80036; stroke-width: 1.0;" />
+        <polygon fill="#A80036" points="355.84,434.89,348.9506,427.8518,351.1927,433.0454,345.9992,435.2875,355.84,434.89" style="stroke: #A80036; stroke-width: 1.0;" />
+        <polygon fill="#A80036" points="208.3,358.31,213.6878,366.5545,212.4994,361.0239,218.03,359.8355,208.3,358.31" style="stroke: #A80036; stroke-width: 1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="32" x="289" y="401.5684">2181</text>
+        <!--MD5=[7f3357cf8fc45e46f5bee42ded5fb176]
+link Solr2 to ZooKeeper1-->
+        <path d="M298.21,352.28 C274.01,361.89 243.41,374.75 217,388 C190.32,401.38 161.43,418.4 139.03,432.18 " fill="none" id="Solr2-ZooKeeper1" style="stroke: #A80036; stroke-width: 1.0;" />
+        <polygon fill="#A80036" points="134.63,434.89,144.3893,433.5652,138.8844,432.2631,140.1864,426.7582,134.63,434.89" style="stroke: #A80036; stroke-width: 1.0;" />
+        <polygon fill="#A80036" points="302.96,350.4,293.1207,349.966,298.3059,352.2274,296.0445,357.4126,302.96,350.4" style="stroke: #A80036; stroke-width: 1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="32" x="218" y="401.5684">2181</text>
+        <!--MD5=[bd0bbab7bd9a880ef68e5f886f19585e]
+link Solr2 to ZooKeeper2-->
+        <path d="M341.45,363.21 C340.53,376.65 337.63,392.6 330,405 C323.56,415.46 314.17,424.44 304.27,431.85 " fill="none" id="Solr2-ZooKeeper2" style="stroke: #A80036; stroke-width: 1.0;" />
+        <polygon fill="#A80036" points="300.01,434.93,309.6452,432.8896,304.0592,431.9968,304.9521,426.4109,300.01,434.93" style="stroke: #A80036; stroke-width: 1.0;" />
+        <polygon fill="#A80036" points="341.71,358.01,337.2517,366.792,341.4525,363.0034,345.2411,367.2041,341.71,358.01" style="stroke: #A80036; stroke-width: 1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="32" x="337" y="401.5684">2181</text>
+        <!--MD5=[5403674de61bd541392b7612d70514b4]
+link Solr2 to ZooKeeper3-->
+        <path d="M380.28,361.17 C389.36,368.75 398.08,377.81 404,388 C411.28,400.53 414.38,416.35 415.62,429.68 " fill="none" id="Solr2-ZooKeeper3" style="stroke: #A80036; stroke-width: 1.0;" />
+        <polygon fill="#A80036" points="416.02,434.84,419.3139,425.5583,415.6343,429.8549,411.3377,426.1753,416.02,434.84" style="stroke: #A80036; stroke-width: 1.0;" />
+        <polygon fill="#A80036" points="376.38,358.01,380.8584,366.7818,380.2662,361.156,385.892,360.5638,376.38,358.01" style="stroke: #A80036; stroke-width: 1.0;" /><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="32" x="411" y="401.5684">2181</text>
+        <!--MD5=[4568e82beaf821ccd04edc218e44d21f]
+@startuml
+
+actor User
+
+frame Docker {
+  node Nginx
+
+  node Solr1
+  node Solr2
+
+  node ZooKeeper1
+  node ZooKeeper2
+  node ZooKeeper3
+}
+
+User -down-> Nginx : 8080
+Nginx -down-> Solr1 : 8983
+Nginx -down-> Solr2 : 8983
+Solr1 <-down-> ZooKeeper1 : 2181
+Solr1 <-down-> ZooKeeper2 : 2181
+Solr1 <-down-> ZooKeeper3 : 2181
+Solr2 <-down-> ZooKeeper1 : 2181
+Solr2 <-down-> ZooKeeper2 : 2181
+Solr2 <-down-> ZooKeeper3 : 2181
+
+@enduml
+
+PlantUML version 1.2019.11(Sun Sep 22 19:02:15 JST 2019)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Java Version: 11.0.1+13-LTS
+Operating System: Mac OS X
+Default Encoding: UTF-8
+Language: ja
+Country: JP
+-->
+    </g>
+</svg>

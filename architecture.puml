@@ -1,0 +1,26 @@
+@startuml
+
+actor User
+
+frame Docker {
+  node Nginx
+
+  node Solr1
+  node Solr2
+
+  node ZooKeeper1
+  node ZooKeeper2
+  node ZooKeeper3
+}
+
+User -down-> Nginx : 8080
+Nginx -down-> Solr1 : 8983
+Nginx -down-> Solr2 : 8983
+Solr1 <-down-> ZooKeeper1 : 2181
+Solr1 <-down-> ZooKeeper2 : 2181
+Solr1 <-down-> ZooKeeper3 : 2181
+Solr2 <-down-> ZooKeeper1 : 2181
+Solr2 <-down-> ZooKeeper2 : 2181
+Solr2 <-down-> ZooKeeper3 : 2181
+
+@enduml
