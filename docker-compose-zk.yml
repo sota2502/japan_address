@@ -1,0 +1,48 @@
+version: '3.7'
+
+x-zoo-service: &zoo-service
+  image: zookeeper:3.5
+  restart: always
+  networks:
+    - solr
+
+services:
+  zoo1:
+    <<: *zoo-service
+    container_name: zoo1
+    hostname: zoo1
+    ports:
+      - 2181:2181
+    env_file: ./zoo.env
+    environment:
+      ZOO_MY_ID: 1
+    volumes:
+      - ./data/zoo1/data:/data
+      - ./data/zoo1/datalog:/datalog
+  zoo2:
+    <<: *zoo-service
+    container_name: zoo2
+    hostname: zoo2
+    ports:
+      - 2182:2181
+    env_file: ./zoo.env
+    environment:
+      ZOO_MY_ID: 2
+    volumes:
+      - ./data/zoo2/data:/data
+      - ./data/zoo2/datalog:/datalog
+  zoo3:
+    <<: *zoo-service
+    container_name: zoo3
+    hostname: zoo3
+    ports:
+      - 2183:2181
+    env_file: ./zoo.env
+    environment:
+      ZOO_MY_ID: 3
+    volumes:
+      - ./data/zoo3/data:/data
+      - ./data/zoo3/datalog:/datalog
+
+networks:
+  solr:

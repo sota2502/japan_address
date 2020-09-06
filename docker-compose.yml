@@ -1,0 +1,76 @@
+version: '3.7'
+
+x-zoo-service: &zoo-service
+  image: zookeeper:3.5
+  restart: always
+  networks:
+    - solr
+
+x-solr-service: &solr-service
+  image: solr:8.5.2
+  environment:
+    ZK_HOST: zoo1:2181,zoo2:2181,zoo3:2181
+    SOLR_JAVA_MEM: -Xms1g -Xmx1g -Xmn512m
+  networks:
+    - solr
+  depends_on:
+    - zoo1
+    - zoo2
+    - zoo3
+
+services:
+  zoo1:
+    <<: *zoo-service
+    container_name: zoo1
+    hostname: zoo1
+    env_file: ./zoo.env
+    environment:
+      ZOO_MY_ID: 1
+    volumes:
+      - ./data/zoo1/data:/data
+      - ./data/zoo1/datalog:/datalog
+  zoo2:
+    <<: *zoo-service
+    container_name: zoo2
+    hostname: zoo2
+    env_file: ./zoo.env
+    environment:
+      ZOO_MY_ID: 2
+    volumes:
+      - ./data/zoo2/data:/data
+      - ./data/zoo2/datalog:/datalog
+  zoo3:
+    <<: *zoo-service
+    container_name: zoo3
+    hostname: zoo3
+    env_file: ./zoo.env
+    environment:
+      ZOO_MY_ID: 3
+    volumes:
+      - ./data/zoo3/data:/data
+      - ./data/zoo3/datalog:/datalog
+  solr1:
+    <<: *solr-service
+    container_name: solr1
+    volumes:
+      - ./data/solr1:/var/solr
+  solr2:
+    <<: *solr-service
+    container_name: solr2
+    volumes:
+      - ./data/solr2:/var/solr
+  nginx:
+    image: nginx:1.19.2
+    container_name: nginx
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - 8080:80
+    networks:
+      - solr
+    depends_on:
+      - solr1
+      - solr2
+
+networks:
+  solr:
